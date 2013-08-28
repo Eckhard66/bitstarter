@@ -12,7 +12,25 @@
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
     <style type="text/css">
+
+
+
+
+  
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  #mc_embed_signup{background:#fff;  font:14px Helvetica,Arial,sans-serif; }
+#mce-EMAIL-alert form{margin-top:10px}
+#mce-EMAIL-alert a>img{margin:0 4px;-webkit-filter:opacity(0.7)}
+#mce-EMAIL-alert a:hover>img{-webkit-filter:opacity(1)}
+#mce-EMAIL-box{margin-left:4px;margin-bottom:0}
+#mc-embedded-subscribe-form{margin-bottom:0}  
+
+    
+
 
       /* Large desktop */
       @media (min-width: 980px) { 
@@ -55,7 +73,7 @@
       body{
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
-      .heading, .subheading {
+      .heading, .subheading, h5 {
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
         text-align: center;
       }
@@ -77,7 +95,7 @@
         padding: 2% 0%;
       }
       .actions {
-        background-color: #343434;
+        background-color: #626262;
         padding: 3% 0%;
       }
       .video, .thermometer, .order, .social, .statistics {
@@ -297,9 +315,21 @@
        margin: 0 auto; 
       }      
 
-    </style>
 
-<!-- GOOGLE ANALYTICS GA SCRIPT
+
+
+
+   </style>
+
+
+<!-- FavIcon -->
+<link rel="shortcut icon" href="http://4-Ventures.com/assets/img/moodtracker-icon.png" type="image/x-icon" />
+
+<style>#forkongithub a{z-index: 20;background:orange;color:#fff;text-decoration:none;font-family:arial, sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:0.8rem;line-height:1.2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#060;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style>
+
+
+
+<!-- GOOGLE ANALYTICS GA SCRIPT -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -313,14 +343,21 @@
 
 </script>
 
-  </head>
-  <body>
+</head>
+
+
+<body>
+
+
 
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
-    <div class="navbar navbar-fixed-top">
+   
+
+ <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+
           <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
@@ -337,11 +374,22 @@
                <li><a href="#team">Team</a></li>
                <li><a href="#pledge">Pledge</a></li>
                <li><a href="#contact">Contact</a></li>
-            </ul>
+
+
+            </ul>      
+
+ 
           </div><!--/.nav-collapse -->
+<!--<button class="btn btn-twitter"><i class="icon-twitter"></i> | Tweet about us</button>-->
+<a href="http://twitter.com/home?status=@MoodTrackerPlus: Great Crowdfunding idea to improve life of cancer patients. Pls retweet http://mcy.mobi http://img.ly/wiMY" target="_blank" class="btn btn-twitter"><i class="icon-twitter"></i> | Share on Twitter </a>
+<span id="forkongithub"><a href="https://www.coursera.org/course/startup">delivered for Stanford Startup Classes</a></span>
+
         </div>
-      </div>
+
+
     </div>
+</div>
+
 
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
@@ -352,15 +400,14 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Moodtracker: Empowering cancer patients to get the best care</h1>
+          <h1>MoodTracker: Empowering patient-physician communication to increase cancer care and treatment outcome</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Fund this project: Providing best well-being and quality of life along the journey.</h1>
-</p>
+          <p class="lead">Support this project: Optimizing well-being and quality of life along a cancer patient's journey.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
@@ -373,6 +420,7 @@
           <div class="row-fluid">
           <div class="span8 offset2">
             <div class="row-fluid statistics">
+                   
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
@@ -401,21 +449,25 @@
             <div class="thermometer progress active">
               <div class="bar bar-success" style="width: 60%;"></div>
               <div class="bar bar-warning" style="width: 40%;"></div>
+
             </div>
+<h5>(Statistics still work in progress)</h5>
           </div>
           </div>
-          <div class="row-fluid">
-          <div class="span6 offset3 order">
+<!--          <div class="row-fluid">
+          <div class="span6 offset3 order"> -->
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
           <!--  <button class="btn btn-success btn-large">Preorder</button> -->
 
+<!--
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="NFYR33926ZF92">
 <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal" > 
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
+-->
 
 <!--Paypal withs input field in table
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -439,13 +491,16 @@
 <input type="hidden" name="currency_code" value="USD">
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
+</div>
+</div>
 -->
 
 
 
 
-          </div>
-          </div>
+
+
+
           <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
@@ -453,8 +508,7 @@
           <!--  <button class="btn btn-success btn-large">Preorder</button> -->
 
 
-<a class="coinbase-button" data-code="b605e21172f06d1b10145d31034f6cc1" href="https://coinbase.com/checkouts/b605e21172f06d1b10145d31034f6cc1">
-Preorder With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+<a class="coinbase-button" data-code="c6ffc50f6f83d09e1174feec0ff0b5dc" href="https://coinbase.com/checkouts/c6ffc50f6f83d09e1174feec0ff0b5dc">Preorder With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 
 
 
@@ -539,7 +593,7 @@ END CAROUSSEL -->
 <a id="service"><hr class="featurette-divider"></a>
 
       <h2 class="featurette-heading">
-	Improving the relation:
+	Improving the relation and outcome
 	<span class="muted">for patients and physicians.</span>
       </h2>
 
@@ -551,20 +605,20 @@ END CAROUSSEL -->
         </div>
         <div class="span5 copy">
           <p>
-             The MoodTracker App supports the patient-physician communication and relationship via an intuitive interface.
-	     It captures current situation, feelings, needs and  wishes. 
-             The app captures and tracks the patient's self assessment about his health and helps to make the most out of the visit with the attending doctor. 
-             The intuitive user interface enables any patient - independent of education - to communicate the necessary.
-             The app can be used by the patient while in hospital and while at home:
-             While waiting for an appointment with the doctor, 
-the patient can capture how she/he feels (about nutrition, pain, fear, treatments, side-effects,..) without words, 
-just by swiping over the different topics ranked by smileys
-While at home, the app can be used to capture patient mood daily and when send to the treating physician - 
-to evaluate the  with the option to call in an appointment or an other required intervention.
-Secured by mobile two-factor authentication, the patient-centered application offers the highest privacy 
-since the patient owns the data and gives access to the data shared; 
-the physician can easily integrate the patient data into existing EMR of the health facility.
-
+The MoodTracker App supports patient-physician communication via an intuitive interface. It captures current situations, feelings, needs and wishes. 
+The app records and tracks the patient's self- assessment and helps to make the most out of every doctor's visit. 
+</p>
+<p>
+The intuitive user interface enables any patient - independent of education - to communicate the necessary information. 
+The app can be used by the patient while in hospital, at home, or waiting for an appointment with the doctor. 
+With the app, the patient can capture how she/he feels (about nutrition, pain, fear, treatments, side-effects,..) without words -
+simply by swiping over the different topics ranked by smileys.
+</p>
+<p>When at home, the app can be used to capture patient mood daily. When sent to the treating physician, 
+the app helps to evaluate the option to call in an appointment or another required intervention. 
+</p>
+<p>Secured by mobile two-factor authentication, the patient-centered application offers the highest possible privacy. 
+The patient owns the data and gives access to the data shared, while the physician can easily integrate the patient data into the existing EMR of the health facility.
           </p>
         </div>
       </div>
@@ -573,8 +627,8 @@ the physician can easily integrate the patient data into existing EMR of the hea
 
 
      <h2 class="featurette-heading">
-        The PLUS for the Patient:
-        <span class="muted">??????.</span>
+ The PLUS for the Patient: 
+        <span class="muted">Individualized, integrated treatment.</span>
       </h2>
 
 
@@ -582,13 +636,14 @@ the physician can easily integrate the patient data into existing EMR of the hea
      <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-<span class="copy-bold">More time:</span> It gives the patient more time for assessment and the physician more time to capture the patient real situation 
-to respond with the best adaptations changes in treatment or further interventions for the patient. 
-<span class="copy-bold">Increased Trust:</span>Knowing that the attending physician uses the same app helps to build trust and confidence to ask the relevant questions 
-<span class="copy-bold">Better self-care:</span> The patient will be more aware of own health and will be empowered to take actions
-<span class="copy-bold">Better informed:</span> Option to learn from the given Resources on app  about evidence-based research
-<span class="copy-bold">Better planning:</span> Option to keep track on appointments, medications,.. with personalized Calender
-<span class="copy-bold">Secured Patient ID</span> via smartphone app for two-factor authentication and integrated in existing EMR systems
+<p><span class="copy-bold">More time:</span> for patients to assess their situation and physicians to capture the patient's real situation. 
+This enables doctors to respond with optimal changes in treatment or further interventions for the patient. </p>
+<p><span class="copy-bold">Increased trust:</span> Knowing that the attending physician uses the same app helps
+  to build trust and confidence to ask the relevant questions.</p> 
+<p><span class="copy-bold">Better self-care:</span> The patient is more aware of his or her own health and becomes empowered to take actions.</p>
+<p><span class="copy-bold">Better informed:</span> Patients can learn from the given resources on app about evidence-based research.</p>
+<p><span class="copy-bold">Better planning:</span> Patients keep track of appointment and medications using a personalized calender.</p>
+<p><span class="copy-bold">Secured Patient ID</span> via smartphone app with two-factor authentication and integrated in existing EMR systems.</p>
           </p>
         </div>
         <div class="span5 asset">
@@ -602,7 +657,7 @@ to respond with the best adaptations changes in treatment or further interventio
 
      <h2 class="featurette-heading">
         The PLUS for the Physician:
-        <span class="muted">??????.</span>
+        <span class="muted">Unbiased patient mood recording for better treatment outcome</span>
       </h2>
 
 
@@ -616,12 +671,15 @@ to respond with the best adaptations changes in treatment or further interventio
         </div>
         <div class="span5 copy">
           <p>
-<span class="copy-bold">Increased patient satisfaction:</span> The empowered patient asking the right questions is the more happy one
-<span class="copy-bold">More new patients:</span> More referrals from happy, established patients to potential new patients
-<span class="copy-bold">Increased capacity and saving time:</span> The physician can capture the patient's real situation faster, and can focus and respond on the  need
-<span class="copy-bold">Continuous care and instant changes:</span> The physician can instantly adapt the ongoing activities for the patient (e.g. with reduction of treatment, increase of pain medication, additional consultation with psychiatrist; new nutrition concept,..).  The app would be connected to the health facilities pharmacy and nurse stations to automatically change the medication/pain/nutrition dosages in  receipts and in the medical records. 
-<span class="copy-bold">Secured Patient ID</span> via smartphone app and integrated in existing EMR systems
-s</p>
+<p><span class="copy-bold">Increased patient satisfaction:</span> The empowered patient who is asking the right questions is a happier patient.</p>
+<p><span class="copy-bold">More new patients:</span> More referrals from happy, established patients to potential new patients</p>
+<p><span class="copy-bold">Increased capacity and saving time:</span> The physician can capture the patient's real situation faster, and can focus and respond to the need in real time</p>
+<p><span class="copy-bold">Continuous care and instant changes:</span> 
+The physician can instantly adapt the ongoing activities for the patient. 
+The app connects to the health facilities' pharmacy and nurse stations to evaluate and adapt medication/pain/nutrition 
+dosages in receipts and in the medical records. </p>
+
+<p><span class="copy-bold">Secured Patient ID</span> via smartphone app and integrated in existing EMR systems</p>
         </div>
       </div>
 
@@ -640,9 +698,9 @@ s</p>
      <div class="social">
       <p><img alt="" src="http://4-Ventures.com/assets/img/HKirsch.png">  </p>
       <a href="mailto:info@mcy.de"><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a> 
-      <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
-      <a target="_blank" href="http://www.facebook.com/4Venture"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+      <a target="_blank" href="http://de.linkedin.com/in/heidrunkirsch"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a> 
+      <a target="_blank" href="http://www.twitter.com/mcy_de"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
+      <a target="_blank" href="http://www.facebook.com/MarketingConsultancy"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
     </div>
     <h3>Heidrun Kirsch</h3>
     <h4>Marketer</h4>
@@ -652,9 +710,9 @@ s</p>
     <div class="social">
       <p><img alt="" src="http://4-Ventures.com/assets/img/GKober.png">  </p>
       <a href="mailto:kober.gerhard@gmail.com"><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
-      <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
-      <a target="_blank" href="http://www.facebook.com/4Venture"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
     </div>
     <h3>Gerhard Kober</h3>
     <h4>Business Planner</h4>
@@ -664,9 +722,9 @@ s</p>
      <div class="social">
       <p><img alt="" src="http://4-Ventures.com/assets/img/MMamdouh.png">  </p>
       <a href="mailto:eng.mohamed.mamdouh@gmail.com "><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
-      <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
-      <a target="_blank" href="http://www.facebook.com/4Venture"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
     </div>
     <h3>Mohamed Mamdouh</h3>
     <h4>Developer</h4>
@@ -676,9 +734,10 @@ s</p>
     <div class="social">
       <p><img alt="" src="http://4-Ventures.com/assets/img/MPotharaju.png">  </p>
       <a href="mailto:Mahadev62@gmail.com"><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
-      <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
-      <a target="_blank" href="http://www.facebook.com/4Venture"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+
     </div>
     <h3>Mahadev Potharaju</h3>
     <h4>Physician</h4>
@@ -688,9 +747,10 @@ s</p>
     <div class="social">
       <p><img alt="" src="http://4-Ventures.com/assets/img/VRatugolea.png">  </p>
       <a href="mailto:von_ratu@outlook.com"><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
-      <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
-      <a target="_blank" href="http://www.facebook.com/4Venture"><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
+      <a target="_blank" ><img alt=" " src="http://4-Ventures.com/assets/img/facebook.png"></a>
+
     </div>
     <h3>Vonivate Ratugolea</h3>
     <h4>Designer</h4>
@@ -698,7 +758,7 @@ s</p>
   </div>
   <div class="span2 copyteam copy-right">
     <div class="social">
-      <p><img alt="" src="http://4-Ventures.com/assets/img/EOrtwein.png">  </p>
+5B      <p><img alt="" src="http://4-Ventures.com/assets/img/EOrtwein.png">  </p>
       <a href="mailto:info@4ventures.de"><img alt=" " src="http://4-Ventures.com/assets/img/email.png"></a>
       <a target="_blank" href="http://www.linkedin.com/profile/view?id=17778"><img alt=" " src="http://4-Ventures.com/assets/img/linkedin.png"></a>
       <a target="_blank" href="http://www.twitter.com/eortwein"><img alt=" " src="http://4-Ventures.com/assets/img/twitter.png" ></a>
@@ -720,8 +780,8 @@ s</p>
 <a id="journey"><hr class="featurette-divider"></a>
 
      <h2 class="featurette-heading">
-        Our Journey:
-        <span class="muted">just starting</span>
+        Our journey:
+        <span class="muted">just begun</span>
       </h2>
 
 
@@ -730,28 +790,29 @@ s</p>
     <div class="span4">
       <h3 class="text-center">SO FAR</h3>
       <p>
-Over the past three years we have built several prototypes and tested them heavily. Constantly, we have revised and improved the design and mechanicsK	</p>
+Over the last few months, our "Life+" team from the <span class="copy-bold">Mobile health without frontiers class at Stanford University</span>
+ has developed the idea of the MoodTracker app to improve patient/physician communication.</p> 
+<p>During this summer, this "Bitstarter" Crowdfunding website was developed as a result of a <span class="copy-bold">Startup Programming class at Stanford University</span>.</p> 
       </div>
     <!-- /.span4 -->
     <div class="span4">
       <h3 class="text-center">NOW</h3>
       <p>
-Our prototype holds internally the fully functioning and patented mechanical unit. Also, the size and shape resemble the final product that will enter production.
-We have designed the housing of our prototypes virtually and have produced half a dozen using 3D printers and tested them heavily.
-We were supplied with Texas  Bluetooth Smart Module and are very satisfied with its performance.
-The mechanical unit, the housing and the Bluetooth Smart Module comply with our high production standards.
-Instruments
-
+We have developed a mockup of the mobile app and the Moodtracker website. Our mockup specifies the mobile app logic and the back-end functionalities. 
+To validate our idea further and get funding for the product development, we want to develop a prototype. </p>
+<p>Our team has the capabilities and commitment to develop the prototype as soon as we have the required funding for it. 
+Getting closer to launch, the name and design of the final product may alter.
+The feedback of the Stanford team (expected in mid-September 2013) is expected to speed up the implementation process for our prototype even further. 
 	</p>
       </div>
     <!-- /.span4 -->
     <div class="span4">
       <h3 class="text-center">NEXT</h3>
       <p>
-Your financial support will allow us to invest in a high-performance molding tool, built after our specifications. This molding tool will be used to produce the housing via injection molding.
-Given that the mechanical units require the precision and quality of a clock work, they will be produced with the use of a CNC lathe.
-The programming of the Bluetooth Smart Modules and for the App will be further optimized by our engineers.
-Final assembly of each KEEO will be done by hand, running through extensive quality checks before leaving our facilities.
+Your financial support will allow us to develop, test and promote the mobile app and the corresponding website. 
+We intend to win the commitment of high-profiled cancer centers to make the mobile app available to patients worldwide. </p>
+<p>Our globally distributed team and our connections to cancer organizations will help us to make MoodTracker successful and 
+to improve the treatment for cancer patients in return. Please help us to make that a reality!
 	</p>
       </div>
     </div>
@@ -772,28 +833,109 @@ Final assembly of each KEEO will be done by hand, running through extensive qual
     <div class="span3">
       <h3 class="text-center">$1 or more</h3>
       <p>
-email
-Free business canvas
+<span class="copy-bold">Free business canvas:</span></p> 
+<p>We send you our MoodTracker presentation including the business canvas.y</p>
+
+
+<!--
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="NFYR33926ZF92">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal" >
+<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+<a class="coinbase-button" data-code="b605e21172f06d1b10145d31034f6cc1" href="https://coinbase.com/checkouts/b605e21172f06d1b10145d31034f6cc1">
+Preorder With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+-->
+
+
      </div>
      <div class="span3">
       <h3 class="text-center">$5 or more</h3>
       <p>
-Become a pilot tester
+<span class="copy-bold">Become a pilot tester:</span> </p>
+<p>You will receive our MoodTracker presentation with business canvas and we will involve you in our testing phase for the mobile app. 
         </p>
      </div>
      <div class="span3">
        <h3 class="text-center">$25 or more</h3>
        <p>
-Find your mentioning on our website
+<span class="copy-bold">Get mentioned on our website:</span></p>  
+<p>We will mention you as sponsor of the MoodTracker idea and app on this website.
         </p>
     </div>
     <div class="span3">
        <h3 class="text-center">$50 or more</h3>
        <p>
-Interested to become an investor?
+<span class="copy-bold">Interested in becoming an investor?</span></p> 
+<p>We are looking for people with a long-time commitment in our idea. 
+If you are interested in supporting us with a higher investment in turn for options, please let us know.
         </p>
      </div>
   </div>
+
+
+
+
+
+<a id="contact"><hr class="featurette-divider"></a>
+
+
+
+     <h2 class="featurette-heading center">
+        Contact and Follow:
+        <span class="muted">Moodtracker / Life+ Team</span>
+
+      </h2>
+
+
+
+<!--End mc_embed_signup-->
+
+    <div class="row-fluid centered">
+
+      <div class="span6">
+       <div id="mailcontact" class="alert alert-info center">
+             <p>
+
+Please contact Heidrun (Team Lead)</p>
+<p>  
+<a href="mailto:info@mcy.de"><img alt=" " src="http://4-Ventures.com/assets/img/mail-icon.jpg" 
+width="60"></a>
+for ideas, questions, thoughts, ...
+</p>
+   </div>
+</div>
+      <div class="span6">
+        <div id="mce-EMAIL-alert" class="alert alert-info center">
+
+
+    <p>Follows us on Twitter or subscribe for email updates</p> 
+<form action="http://4-Ventures.us7.list-manage.com/subscribe/post?u=3c767e33e63421b829a56c729&amp;id=ae1bfd9d49" method="post" id="mc-embedd\
+ed-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+<!--<a href="https://twitter.com/MoodTrackerPlus"  class="twitter-follow-button" data-show-count="false" data-size="large" 
+data-show-screen-name="false">Follow @MoodTrackerPlus<img src="http://4-ventures.com/assets/img/twitterbig.png"></a>-->
+
+<a href="https://twitter.com/MoodTrackerPlus" target="_blank"><img src="http://4-ventures.com/assets/img/twitterbig.png"></a>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <div id="mce-EMAIL-box" class="input-prepend center">
+              <span class="add-on"><i class="icon-envelope"></i></span>
+	            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
+          </form>
+        </div>
+      </div>
+  </div>
+
+
+
 
 
 
@@ -821,12 +963,12 @@ Interested to become an investor?
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    WhAt does FAQ stand for?
+                    What is Moodtracker?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+MoodTracker is a secure mobile app to empower the patient-physician relationship via an intuitive interface. It records and tracks the patient's self- assessment and helps to make the most out of every doctor's visit. 
                   </div>
               </div>
               </div>
@@ -834,32 +976,58 @@ Interested to become an investor?
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+What are the benefits of MoodTracker?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+MoodTracker can improve patient/physician communication leading to a more patient-centered cancer care and treatment with a better outcome for both.
                   </div>
                 </div>
+
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseThree">
+Who is behind Moodtracker?
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+		    MoodTracker was developed by the Life+ team of Stanford's "Mobile health without frontiers class" (June-Sep 2013)
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseFour">
+What is unique about Moodtracker?
+                  </a>
+                </div>
+                <div id="collapseFour" class="accordion-body collapse">
+                  <div class="accordion-inner">
+MoodTracker is a secure mobile app with an intuitive interface to capture the patient's feelings, needs and wishes. 
+It is easy to use by any patient - independent of education - and at any location - while in hospital, at home or waiting for an appointment.
+The patient's unbiased Moodboard empowers the treating physician to capture the patient's real situation faster, 
+offering individualized care in any situation (in clinic or at home) - with the option to call in an appointment or another required intervention. 
+                  </div>
+                </div>
+              </div>
+
+
+
               </div>
             </div>
           </div>
 
       </div>
 
+
+
 <hr class="featurette-divider">
-
-
-      <div class="row-fluid">
-        <div class="span12">
-          <p>
-THANK YOU - A huge THANK YOU to everyone who has supported us in the process of making Moodtracker!
-</p>
-        </div>
-      </div>
-
-
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
@@ -875,7 +1043,7 @@ THANK YOU - A huge THANK YOU to everyone who has supported us in the process of 
     </div>
 
 
-<!-- GOOGLE ANALYTIC SCRIPT -->
+<!-- GOOGLE Analytic SCRIPT -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
